@@ -1,0 +1,68 @@
+{
+  "registerType": {
+    "newProduct": "Produto Novo",
+    "existingProduct": "Produto Existente",
+    "none": false
+  },
+
+  "registerStatus": {
+    "success": "success",
+    "failure": "failure"
+  },
+
+  "successfulRegistration": {
+    "productName": true,
+    "description": true,
+    "productQuantity": true,
+    "acquisitionPrice": true,
+    "salePrice": true,
+    "supplier": true
+  },
+
+  "newProductNoFieldsFilled": {
+    "productName": false,
+    "description": false,
+    "productQuantity": false,
+    "acquisitionPrice": false,
+    "salePrice": false,
+    "supplier": false
+  },
+
+  "onlyRequiredFields": {
+    "productName": true,
+    "description": false,
+    "productQuantity": true,
+    "acquisitionPrice": false,
+    "salePrice": true,
+    "supplier": false
+  },
+
+  "onlyNonRequiredFields": {
+    "productName": false,
+    "description": true,
+    "productQuantity": false,
+    "acquisitionPrice": true,
+    "salePrice": false,
+    "supplier": true
+  },
+
+  "succesfulExistingProductRegistration": {
+    "existingProductName": true,
+    "quantityToAdd": true
+  },
+
+  "existingProductNoFieldsFilled": {
+    "existingProductName": false,
+    "quantityToAdd": false
+  },
+
+  "onlyProductNameFilled": {
+    "existingProductName": true,
+    "quantityToAdd": false
+  },
+
+  "onlyQuantityToAddFilled": {
+    "existingProductName": false,
+    "quantityToAdd": true
+  }
+}

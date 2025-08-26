@@ -1,0 +1,8 @@
+{
+  "alerts": {
+    "successfulRegistration": "Produto novo cadastrado com sucesso.",
+    "successfulStockUpdate": "Estoque do produto atualizado com sucesso",
+    "newProductRegistrationFailure": "Nome, quantidade e preço de venda são obrigatórios.",
+    "existentProductRegistrationFailure": "Nome do produto e quantidade são obrigatórios."
+  }
+}
