@@ -10,17 +10,23 @@ O objetivo é garantir a qualidade do sistema, validando as principais funcional
 
 Antes de executar os testes automatizados, é necessário:  
 
-1. Ter o projeto **Controle de Estoque** clonado e configurado, e iniciar o servidor:  
+1. Ter o projeto **Controle de Estoque** clonado e configurado, e iniciar o servidor:
+   
    ```bash
    git clone https://github.com/Gustavo-Plz1n/Controle-de-Estoque.git
-   ```
+
+---
 
 ### 📌 Como executar o teste
+
 1. Para executar o teste no cypress com a interface basta executar o seguinte comando
+
    ```bash
     npx cypress open
    ```
-2. Caso queira executar o teste apenas atravez do terminal, basta utilizar o seguinte comando
+3. Caso queira executar o teste apenas atravez do terminal, basta utilizar o seguinte comando
+   
    ```bash
     npx cypress run
    ```
+
